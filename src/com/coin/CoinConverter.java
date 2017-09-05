@@ -14,7 +14,6 @@ import com.google.gson.internal.LinkedTreeMap;
 import cronapi.CronapiMetaData;
 import cronapi.ParamMetaData;
 import cronapi.Var;
-import cronapi.CronapiMetaData.CategoryType;
 import cronapi.CronapiMetaData.ObjectType;
 
 /**
@@ -25,7 +24,7 @@ import cronapi.CronapiMetaData.ObjectType;
  * @since 31-08-2017
  *
  */
-@CronapiMetaData(category = CategoryType.CONVERSION, categoryTags = { "Conversão", "Convert" })
+@CronapiMetaData( categoryName ="{{minhacategoria}}" )
 public class CoinConverter {
 
   public static Var getContentFromAPI(String base) throws Exception {

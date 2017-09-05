@@ -58,7 +58,7 @@
         <dependency>
             <groupId>io.cronapp</groupId>
             <artifactId>cronapi-java</artifactId>
-            <version>0.0.54</version>
+            <version>0.0.56</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -70,5 +70,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.cronospass.resource mimetype="folder/src">src</project.cronospass.resource>
+        <project.cronospass.resource mimetype="folder/libs">lib</project.cronospass.resource>
     </properties>
 </project>
